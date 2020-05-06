@@ -8,7 +8,7 @@ class InstaBot:
         self.username = username
 
         # Opens Instagram Website
-        self.driver = webdriver.Chrome('chromedriver.exe')
+        self.driver = webdriver.Chrome('chromedriver.exe')#Insert path to chromedriver on Mac
         self.driver.get('https://www.instagram.com/')
         sleep(4)
 
